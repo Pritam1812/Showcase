@@ -1,0 +1,10 @@
+ 
+
+		blue color = #006090
+		orage color = #f67324
+		announcement = #ff9f49
+		Services thats paves the way to life = #cccccc
+		Courses card header =#555555
+		activities bg-color = #e1e1e1
+		social activities pop-up image-bg-color = #4897bf
+		footer bg color = #1b2e37

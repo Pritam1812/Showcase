@@ -1,0 +1,17 @@
+		
+		Nav bar & footer bg = #313131
+		3 coloumn sec bg= #ab968f
+		
+
+
+		font-
+		company name(Shilpa Overseas)= Baskerville Old Face, 36pt
+		Company name( Pvt.Ltd.)= Baskerville Old Face, 30pt
+		Banner text (Real Leather Goods Handcrafted With Care) = Times New Roman,Bold, 64pt
+		Timeless, Trendy, Comfort and Luxury = Century Schoolbook,Italic,44pt, color-#474747
+		3 coloumn sec-header = Cambria, bold,33pt
+		3 coloumn sec-content = Cambria, Regular,22pt
+		Gallery-header = Century Schoolbook,Bold,40pt,color-#441414
+		Grounded in artisanal culture- Header=  Century Schoolbook,Bold,40pt
+		Grounded in artisanal culture- content =Cambria, Regular , 28pt
+		certification-header= Times New Roman,regular, 40pt,color-#441414

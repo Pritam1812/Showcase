@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+@font-face {
+    font-family: "CenturySchoolbook";
+    src: url(../images/CENSCBK.TTF);
+}
+@font-face {
+    font-family: "Baskerville";
+    src: url(../images/BASKVILL.ttf);
+}
+@font-face {
+    font-family: "Cambria";
+    src: url(../images/Cambria.ttf);
+}
+:root {
+    --section-height: 460px;
+    --small-section: 400px;
+    --primary-color: #441414;
+    --secondary-color: #ab968f;
+}
+.nav-logo{
+    padding-right: 10px;
+}
+.navbar-brand{
+    font-family: "Baskerville";
+}
+.nav-link{
+    color:white !important;
+    padding: 20px !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+}
+.home-section{
+    background: url(../images/header-image.png);
+    
+    min-height: var(--section-height);
+}
+.home-para{
+    min-height: var(--small-section);
+}
+.quote{
+    font-family: "CenturySchoolbook";
+    color: #474747;
+}
+.cert, .gal{
+    color: var(--primary-color);
+}
+.about{
+    background-color: var(--secondary-color);
+    min-height: var(--small-section);
+}
+.cam{
+    font-family: "Cambria-bold";
+}
+.cam-nor{
+    font-family: "Cambria";
+}
+
+.para-border{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.blog{
+    background-image: url(../images/grounded=in-artisanal-culture-bg.png);
+    min-height: var(--section-height);
+    /* font-family: 'Abyssinica SIL', serif !important; */
+}
+.blog-container{
+    display: flex;
+    height: var(--section-height);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.certification-image{
+    max-width: 300px;
+    min-height: 150px;
+}
+.footer, .footer-cont{
+    min-height: 120px;
+}
+.icon{
+    color: white;
+    padding-right: 30px;
+}
+
+@media (max-width: 992px) {
+    .nav-center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .certimg{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .para-border{
+        border: none;
+    }
+    .col-lg-4:nth-child(2){
+        border-top: 1px solid white;
+    }
+    .col-lg-4:nth-child(3){
+        border-top: 1px solid white;
+    }
+    .gallery-image{
+        padding: 10px;
+    }
+
+    .btn-link{
+        width: 50px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-cont{
+        padding-right: 0;
+    }
+}
+@media (min-width: 992px){
+    .home-section{
+        background-size: 100% 100%;
+    }
+    .flinks{
+        justify-content: end;
+    }
+}

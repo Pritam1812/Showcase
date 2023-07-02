@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="Microsoft-Windows-TextToSpeech-en-au-OneCore" version="10.0.18362.387" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <directories>
+    <directory destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU">
+      <securityDescriptor name="WRP_PARENT_DIR_DEFAULT_SDDL" />
+    </directory>
+    <directory destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData" owner="true">
+      <securityDescriptor name="WRP_PARENT_DIR_DEFAULT_SDDL" />
+    </directory>
+    <directory destinationPath="$(runtime.system32)\Speech_OneCore\Common\en-AU" />
+  </directories>
+  <file name="EnAU.Address.DAT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="EnAU.Address.DAT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LtIonlksAo6D+zpO1nyVYei7iSL1ykCl5ZbGQUjIqIw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="EnAU.CityName.DAT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="EnAU.CityName.DAT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r11nFTPA8A3K025H/O1PqlGVZeGad2bN7dzlJ2VY0/k=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="EnAU.CompanyName.DAT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="EnAU.CompanyName.DAT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+R/2LLwi+9X0jqbzCMFBXlrz8FacPfOaJZ+CLkwaAB4=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="EnAU.Computer.DAT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="EnAU.Computer.DAT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X0CyPgxxXTUnqOqPl9cXe+fmaa4gRc05PIm0WDCsap8=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="EnAU.Message.DAT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="EnAU.Message.DAT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xGD/b54SsuefEfpZuDLuaMBGq/AvWysPLkDVhmZxRSo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="EnAU.Name.DAT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="EnAU.Name.DAT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>06flHnMqiSuvn8PykoK5YZhhngL3Bm15Gje5n1qZHvM=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Catherine.APM" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081Catherine.APM" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XtjR4fuRwNT/UJuBL+6zvydTtlI8MJ4o70G4l9ApBZg=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Catherine.HEQ" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081Catherine.HEQ" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o8KfD01EZHUAnGBdLNQJcxF8lHv4boVzhBIH1/LN/F4=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Catherine.INI" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081Catherine.INI" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jRSMqac1f5fk0G3KhGtMZGyiaczA+pMX6bfo/HgF1NU=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.APM" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081James.APM" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WepkljXWE5t/XWu5XHU3XrShCcSqIYL/wxTMBLuoRcQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.BEP" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081James.BEP" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EMazAa7uIAAq1W6SVBm9aDdo0/G3Asx0emLmcujOEjI=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.HEQ" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081James.HEQ" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zUqViBCSPPHlwqCx2PsmxDurDgkbi6n0nFNNkqUEzjQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.INI" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081James.INI" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5+yUsawosJyJ6n4j6aoTqz7Xlgu1OJCjlniN25KkGwI=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.keyboard.NU2" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081James.keyboard.NU2" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>clfaoq5P2MqumbdwPLEVM14dE/zedT9mlASr3G3wU74=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.keyboard.RAD" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081James.keyboard.RAD" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eJmEeMuQ5YcPHd1fDBpsgEYbNLdarAlHfDJZX9hnGM8=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.keyboard.unt" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081James.keyboard.unt" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OBpxGnvM4DSv8jCPdrJlszIsO/RnwHUZjKxCnsV59fc=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.keyboard.WIH" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081James.keyboard.WIH" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1nD+CEpTAr3HkhosgUTUZdYGdVOE3OB3XuFqOqx3c2Q=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081James.keyboard.WVE" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081James.keyboard.WVE" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M6OL4Oo42N2jAIUo1MO8rMTw9GWHIEmm/dZaJx96tzY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.APM" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081Matilda.APM" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fIHoGAjf8QIx7dIAnA9zqik2p+V4BhxS+XB8c0Q84WE=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.BEP" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081Matilda.BEP" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Yw0GCEuv2gemV1Vv4yLqH+Fr/rRhIVdvVdDqTCz3joQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.HEQ" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081Matilda.HEQ" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Rg4JkTBPzbztb6Lip/ibzZswZ4LwT1qCQreXVND9/+g=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.INI" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="M3081Matilda.INI" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XLzq3U2+1lL8EislZ/4+UAqlLzreO224NQZKSw/V0dg=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.nnm" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-au\" sourceName="M3081Matilda.nnm" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-au\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g9CLaZjMv0ICgBsEsiviHno6yy14URpPrwwMK6bfSIA=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.tbtdirection.TNU" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.tbtdirection.TNU" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tGO0hXPeDEaHsKyDyMZYe/O6+RY0XAAJqn0U0NnOcSk=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.tbtdirection.UNT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.tbtdirection.UNT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QFACWQZkuFVo7yK0rEcUDiB/UmNLnJj9jTFM6UeUZWQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.tbtdirection.WIH" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.tbtdirection.WIH" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iZPj5RqR2XuN10bNjKVr4dA9YyIpUbVAjO7OTdrSbk0=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.tbtdirection.WVE" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.tbtdirection.WVE" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4IWa21qM9+kfOrqPLmRnezcx133OPArp6r6BlQUkE0k=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.tdat" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-au\" sourceName="M3081Matilda.tdat" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-au\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wBDF+yIRa8uczY7ZJEKhsxraya4nht3O0zRGtQR7tpw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.voiceAssistant.TNU" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.voiceAssistant.TNU" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>53AxV1vagNwfKYPg1MAlPaVJMwXHumB7eXkTglNVmMw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.voiceAssistant.UNT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.voiceAssistant.UNT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gG29v3HPe+ER37jWHXoY02ijt12jlkb0JEEJPqx+nIU=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.voiceAssistant.WIH" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.voiceAssistant.WIH" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iZPj5RqR2XuN10bNjKVr4dA9YyIpUbVAjO7OTdrSbk0=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="M3081Matilda.voiceAssistant.WVE" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\NUSData\" sourceName="M3081Matilda.voiceAssistant.WVE" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\NUSData\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XZKNLrKLJQYHtabEbRnBbEdclC4pit6ctRMzKPCHQmw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="MSTTSLocEnAU.DAT" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="MSTTSLocEnAU.DAT" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4tc6cRrqkvhXrC3yJndzUixxVG7HDKlfYMRETjtIg6E=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="MSTTSLocEnAU.INI" destinationPath="$(runtime.windows)\Speech_OneCore\Engines\TTS\en-AU\" sourceName="MSTTSLocEnAU.INI" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2VXXDeNtk0dWOQT/Wk8mU7HTJFPhzQcTGDDGeinDKgc=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="tokens_TTS_en-AU.xml" destinationPath="$(runtime.system32)\Speech_OneCore\Common\en-AU\" sourceName="tokens_TTS_en-AU.xml" importPath="$(build.nttree)\Speech_OneCore\TTSEngines\en-AU\" sourcePath=".\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cncshLvLk82PIlXSALrBBSqufku26gUdxSBo3icKCtY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <memberships>
+    <categoryMembership>
+      <id name="Microsoft-Windows-Desktop Technologies-Speech" version="10.0.18362.387" publicKeyToken="31bf3856ad364e35" buildType="release" language="neutral" processorArchitecture="amd64" />
+    </categoryMembership>
+  </memberships>
+  <registryKeys>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens" />
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens\MSTTS_V110_enAU_CatherineM">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft Catherine - English (Australia)" />
+      <registryValue name="C09" valueType="REG_SZ" value="Microsoft Catherine - English (Australia)" />
+      <registryValue name="CLSID" valueType="REG_SZ" value="{179F3D56-1B0B-42B2-A962-59B7EF59FE1B}" />
+      <registryValue name="LangDataPath" valueType="REG_EXPAND_SZ" value="%windir%\Speech_OneCore\Engines\TTS\en-AU\MSTTSLocenAU.dat" />
+      <registryValue name="VoicePath" valueType="REG_EXPAND_SZ" value="%windir%\Speech_OneCore\Engines\TTS\en-AU\M3081Catherine" />
+      <securityDescriptor name="WRP_PARENT_DIR_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens\MSTTS_V110_enAU_CatherineM\Attributes">
+      <registryValue name="Age" valueType="REG_SZ" value="Adult" />
+      <registryValue name="DataVersion" valueType="REG_SZ" value="11.0.2015.0909" />
+      <registryValue name="Gender" valueType="REG_SZ" value="Female" />
+      <registryValue name="Language" valueType="REG_SZ" value="C09" />
+      <registryValue name="Name" valueType="REG_SZ" value="Microsoft Catherine" />
+      <registryValue name="SharedPronunciation" valueType="REG_SZ" value="" />
+      <registryValue name="Vendor" valueType="REG_SZ" value="Microsoft" />
+      <registryValue name="SayAsSupport" valueType="REG_SZ" value="spell=NativeSupported; cardinal=NativeSupported; ordinal=NativeSupported; date=NativeSupported; time=NativeSupported; telephone=NativeSupported; computer=NativeSupported; address=NativeSupported; currency=NativeSupported; message=NativeSupported; media=NativeSupported; url=NativeSupported; alphanumeric=NativeSupported" />
+      <registryValue name="Version" valueType="REG_SZ" value="11.0" />
+      <securityDescriptor name="WRP_PARENT_DIR_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens\MSTTS_V110_enAU_JamesM">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft James - English (Australia)" />
+      <registryValue name="C09" valueType="REG_SZ" value="Microsoft James - English (Australia)" />
+      <registryValue name="CLSID" valueType="REG_SZ" value="{179F3D56-1B0B-42B2-A962-59B7EF59FE1B}" />
+      <registryValue name="LangDataPath" valueType="REG_EXPAND_SZ" value="%windir%\Speech_OneCore\Engines\TTS\en-AU\MSTTSLocenAU.dat" />
+      <registryValue name="VoicePath" valueType="REG_EXPAND_SZ" value="%windir%\Speech_OneCore\Engines\TTS\en-AU\M3081James" />
+      <securityDescriptor name="WRP_PARENT_DIR_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens\MSTTS_V110_enAU_JamesM\Attributes">
+      <registryValue name="Age" valueType="REG_SZ" value="Adult" />
+      <registryValue name="DataVersion" valueType="REG_SZ" value="11.0.2015.0909" />
+      <registryValue name="Gender" valueType="REG_SZ" value="Male" />
+      <registryValue name="Language" valueType="REG_SZ" value="C09" />
+      <registryValue name="Name" valueType="REG_SZ" value="Microsoft James" />
+      <registryValue name="SharedPronunciation" valueType="REG_SZ" value="" />
+      <registryValue name="Vendor" valueType="REG_SZ" value="Microsoft

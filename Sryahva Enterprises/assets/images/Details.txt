@@ -1,0 +1,9 @@
+Sryahva Enterprises Private Limited
+Sachimata Enclave, Flat B, 2nd Floor, Adarshapally road,  Khardaha,  Kolkata-700116. 
+
+
+Color code for webpage-
+	search bar bg-color = #ff396c
+	icon-color = #fff21b
+	today's best deal bg-color = #fefff3
+	footer bg-colro = #2c2c2c
